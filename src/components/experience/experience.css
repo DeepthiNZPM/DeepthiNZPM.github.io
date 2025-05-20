@@ -1,0 +1,77 @@
+#experience {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Main container for experience cards */
+.experience__cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+/* Each individual card */
+.experience__card {
+  background: var(--color-bg-variant);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border: 1px solid transparent;
+  width: 300px;
+  max-width: 100%;
+  transition: var(--transition);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.experience__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  transform: translateY(-5px);
+  cursor: default;
+}
+
+/* Card heading */
+.experience__card h3 {
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+/* Card subheading (duration + location) */
+.experience__card small {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--color-light);
+  font-size: 0.85rem;
+}
+
+/* Bullet list */
+.experience__card ul {
+  text-align: left;
+  padding-left: 1.2rem;
+  margin-top: 0;
+}
+
+.experience__card li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* ================ MEDIA QUERIES (TABLETS) ================= */
+@media screen and (max-width: 1024px) {
+  .experience__cards {
+    gap: 1.5rem;
+  }
+
+  .experience__card {
+    width: 80%;
+  }
+}
+
+/* ================ MEDIA QUERIES (PHONES) ================= */
+@media screen and (max-width: 600px) {
+  .experience__card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+#about {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Container centered on screen */
+.about__container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Paragraph formatting */
+.about__content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--color-light);
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+/* Button section */
+.about__button {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* Optional: remove unused classes */
+.about__me,
+.about__me-image,
+.about__cards,
+.about__card,
+.about__icon {
+  display: none;
+}

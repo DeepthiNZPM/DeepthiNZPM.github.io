@@ -1,0 +1,51 @@
+#academic-projects {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .academic__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .project__card {
+    background: var(--color-bg-variant);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: var(--transition);
+  }
+  
+  .project__card:hover {
+    background: transparent;
+    border: 1px solid var(--color-primary);
+  }
+  
+  .project__card h3 {
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .project__card ul {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .project__card li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .project__date {
+    font-size: 0.85rem;
+    color: var(--color-light);
+    margin-bottom: 0.5rem;
+  }
+  
