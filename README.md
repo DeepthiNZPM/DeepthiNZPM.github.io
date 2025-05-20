@@ -1,6 +1,6 @@
 # My Online Portfolio
 
-Welcome to my online portfolio! This repository contains the code and resources for my personal website, which showcases my projects, skills, and experiences. You can view the live site at [amerfathullah.com](https://amerfathullah.com).
+Welcome to my online portfolio! This repository contains the code and resources for my personal website, which showcases my projects, skills, and experiences. You can view the live site at (https://deepthinzpm.github.io/).
 
 ## Table of Contents
 
@@ -20,7 +20,6 @@ This portfolio is designed to highlight my work as a Full-Stack Developer. It in
 - An introduction section with a brief biography.
 - A portfolio section showcasing my projects.
 - A skills section outlining my competencies.
-- A contact form for potential clients or employers to reach out to me.
 
 ## Features
 
@@ -39,7 +38,7 @@ This portfolio is designed to highlight my work as a Full-Stack Developer. It in
 - **Backend:**
   - None
 - **Deployment & Hosting:**
-  - Netlify
+  - Github Pages
 
 ## Installation
 
@@ -47,11 +46,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/amerfathullah/amerfathullah-portfolio.git
+    git clone https://github.com/DeepthiNZPM/DeepthiNZPM.github.io.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd amerfathullah-portfolio
+    cd DeepthiNZPM
     ```
 3. Install dependencies:
     ```bash
@@ -94,12 +93,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 Feel free to reach out if you have any questions or suggestions!
-
-- Email: [amerfathullah@gmail.com](mailto:amerfathullah@gmail.com)
-- LinkedIn: [Amer Fathullah](https://www.linkedin.com/in/amerfathullah)
-- Facebook: [Amer Fathullah](https://www.facebook.com/amer.fathullah)
-- Instagram: [amer_fathullah](https://www.instagram.com/amer_fathullah/)
-- Twitter: [@AmerFathullah](https://twitter.com/AmerFathullah)
 
 ---
 
